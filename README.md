@@ -27,5 +27,5 @@ scbulk = scPseudoBulk(norm_matrix, clusters)
 
 # Examples
 
-See [vignette](file:///Users/anirudhpatir/Work/Packages/scPseudoBulk.avg/docs/articles/Introduction.html) for a demo.
+See [vignette](https://anirudhpatir.github.io/scPseudoBulk.avg/) for a demo.
 
