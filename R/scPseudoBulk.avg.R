@@ -9,7 +9,7 @@
 #' @param th.drp.pct threshold, int: minimum percent of dropout cells within a cell cluster below which expression values are set to 0 (default = 10)
 #' @param th.drp.cell threshold, int: minimum number of dropout cells within a cell cluster below which expression values are set to 0 (default = 3)
 #'
-#' @return
+#' @return matrix of pseudo bulk samples and genes (removing genes with 0 expression across samples)
 #' @export
 scPseudoBulk.avg = function(
   norm = NULL,
@@ -51,7 +51,7 @@ scPseudoBulk.avg = function(
 #' @param th.drp.pct threshold, int: minimum percent of dropout cells within a cell cluster below which expression values are set to 0 (default = 10)
 #' @param th.drp.cell threshold, int: minimum number of dropout cells within a cell cluster below which expression values are set to 0 (default = 3)
 #'
-#' @return
+#' @return int: average of a vector after applying threshold caps and filters
 #' @export
 flt.cluster = function(x, th.exp.pct, th.drp.pct, th.drp.cell){
 

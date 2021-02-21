@@ -30,7 +30,7 @@ elbow_knee = function(x, addpca = 5){
 #' @param y int: the standard deviation of the 1st PC
 #' @param z int: the standard deviation of the last PC
 #'
-#' @return
+#' @return int: distance from line and point
 #' @export
 dist.pt = function(x,y,z){
   v1 <- y - z
@@ -48,7 +48,7 @@ dist.pt = function(x,y,z){
 #' @param i index
 #' @param n total number of iteration
 #'
-#' @return
+#' @return prints percent progress
 #' @export
 prog.txt = function(i,n){
   cat("\r", paste0(round(100*i/n,2), "% complete"))
