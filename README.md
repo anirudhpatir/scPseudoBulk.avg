@@ -10,7 +10,7 @@ This would help improve the signal to noise ratio.
 
 ## Installation
 
-You can install the released version of scPseudoBulk.avg from [github](https://github.com/anirudhpatir) with:
+You can install the released version of scPseudoBulk.avg from [github](https://github.com/anirudhpatir/scPseudoBulk.avg) with:
 
 ``` r
 devtools::install_github("scPseudoBulk.avg")
@@ -27,5 +27,5 @@ scbulk = scPseudoBulk(norm_matrix, clusters)
 
 # Examples
 
-See [vignette]() for a demo.
+See [vignette](file:///Users/anirudhpatir/Work/Packages/scPseudoBulk.avg/docs/articles/Introduction.html) for a demo.
 
